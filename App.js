@@ -55,6 +55,7 @@ export default function App() {
         onSubmitEditing={fetchDataHandler}
 
         />
+        
  
      </View>
      {loading && (
@@ -73,7 +74,7 @@ export default function App() {
         )}
 
      </ImageBackground>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </SafeAreaView>
   );
 }
